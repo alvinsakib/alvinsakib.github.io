@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 <h1 align="center">Hello, I'm Alvin Sarkar</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=alvinsakib&label=Profile%20views&color=0e75b6&style=flat" alt="alvinsakib" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=alvinsakib" alt="alvinsakib" /></a>
+<p align="left"> 
 Well-versed in design standards and user preferences. Resourceful professional with a successful track record in
 developing innovative web designs and features. Possesses solid knowledge of HTML, CSS, JavaScript, and
 Bootstrap with the ability to quickly learn new technologies. Demonstrated success in identifying and resolving
