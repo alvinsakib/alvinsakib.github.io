@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - alvinsakib
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - alvinsakib/notes-app
+  - alvinsakib/HDL-Design
+  - alvinsakib/Recipe-management
+  - alvinsakib/Quantum-Lab001
+  - alvinsakib/backend-golang
+  - alvinsakib/desktop-pet
