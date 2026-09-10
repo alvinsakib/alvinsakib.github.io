@@ -7,13 +7,11 @@ first_name: Md. Alvin
 middle_name: Sarkar
 last_name: Sakib
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is by email or LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Software Engineer Intern with a Bachelor’s degree in Computer Science and Engineering from RUET. Strong foundation in Linux systems, Bash and Python scripting, Networking, DSA and Problem solving. Experienced with Git, Docker, backend development, and AI-assisted automation. Passionate about cloud deployment, infrastructure automation, troubleshooting, scalable systems, and reliable engineering solutions.
 footer_text: >
-  # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: alvinsakib, alvin, academic-website, portfolio-website, personal-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: user_small.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -356,8 +354,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Sakib]
+  first_name: [Alvin, Md. Alvin]
 
   style: apa
   locale: en
@@ -444,7 +442,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # ImageMagick 7 uses `magick` on Windows; disable until a compatible `convert` command is configured.
   widths:
     - 480
     - 800
