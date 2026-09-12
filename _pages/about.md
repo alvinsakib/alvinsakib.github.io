@@ -36,4 +36,3 @@ I am particularly interested in developing **reliable, efficient, and collaborat
 My work and projects involve **machine learning, deep learning, computer vision, LLMs, on-device AI, and full-stack software development**. I am also interested in research opportunities that combine **NLP and computer vision** to solve meaningful real-world problems.
 
 You can find my projects and research activities through my **GitHub** and connect with me through **LinkedIn**.
-

@@ -31,10 +31,10 @@ cv:
         start_date: 2019
         end_date: 2025
         score: ""
-        courses: 
+        courses:
         # highlights:
-          # - Description 1.
-          # - Description 2.
+        # - Description 1.
+        # - Description 2.
 
       - institution: Cumilla Victoria Govt. College
         location: Cumilla, Bangladesh
@@ -61,7 +61,6 @@ cv:
           - Investigating large language model applications and evaluation approaches
           - Exploring computer vision and on-device AI solutions
           - Contributing to technical research and patent-oriented documentation
-
 
     Volunteer:
       - company: RUET CSE Cultural Night

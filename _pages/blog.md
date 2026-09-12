@@ -16,85 +16,107 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-  {% comment %}
-  BLOG POST STARTER TEMPLATES
-  Copy one template into a new file under _posts/ with a filename such as
-  2026-09-12-my-post.md. Remove this comment block only when the post is ready.
+{% comment %}
+BLOG POST STARTER TEMPLATES
+Copy one template into a new file under \_posts/ with a filename such as
+2026-09-12-my-post.md. Remove this comment block only when the post is ready.
 
-  TEXT / RESEARCH NOTE
-  ---
-  layout: post
-  title: "Post title"
-  date: 2026-09-12 09:00:00 +0000
-  description: "A short summary shown on the blog list."
-  tags: [research, notes]
-  categories: [writing]
-  toc: true
-  ---
+TEXT / RESEARCH NOTE
 
-  Write paragraphs, headings, lists, links, quotes, and tables in Markdown.
+---
 
-  IMAGE / PHOTO ESSAY
-  ---
-  layout: post
-  title: "Image post"
-  date: 2026-09-12 09:00:00 +0000
-  description: "A post centered on one or more images."
-  tags: [images]
-  categories: [visual]
-  thumbnail: assets/img/example.jpg
-  ---
-  {% include figure.liquid path="assets/img/example.jpg" title="Description" class="img-fluid rounded z-depth-1" %}
+layout: post
+title: "Post title"
+date: 2026-09-12 09:00:00 +0000
+description: "A short summary shown on the blog list."
+tags: [research, notes]
+categories: [writing]
+toc: true
 
-  VIDEO / EMBEDDED MEDIA
-  ---
-  layout: post
-  title: "Video post"
-  date: 2026-09-12 09:00:00 +0000
-  description: "A post with a video or recorded presentation."
-  tags: [video, media]
-  categories: [presentations]
-  ---
-  {% include video.liquid path="https://www.youtube.com/watch?v=VIDEO_ID" class="img-fluid rounded z-depth-1" %}
+---
 
-  AUDIO / PODCAST
-  ---
-  layout: post
-  title: "Audio post"
-  date: 2026-09-12 09:00:00 +0000
-  description: "A post with an audio recording."
-  tags: [audio, media]
-  categories: [presentations]
-  ---
-  {% include audio.liquid path="assets/audio/example.mp3" %}
+Write paragraphs, headings, lists, links, quotes, and tables in Markdown.
 
-  CODE / NOTEBOOK / DATA
-  ---
-  layout: post
-  title: "Code and data post"
-  date: 2026-09-12 09:00:00 +0000
-  description: "A technical post with code, charts, or a notebook."
-  tags: [code, python, data]
-  categories: [technical]
-  ---
-  Use fenced code blocks with a language such as ```python, or add a notebook,
-  chart, map, diagram, or table using the matching examples in _posts/.
+IMAGE / PHOTO ESSAY
 
-  FEATURED POST
-  Add `featured: true` to a normal post to show it in the featured area.
+---
 
-  EXTERNAL / REDIRECTED POST
-  ---
-  layout: post
-  title: "External article"
-  date: 2026-09-12 09:00:00 +0000
-  description: "A short summary of the external article."
-  redirect: https://example.com/article
-  ---
+layout: post
+title: "Image post"
+date: 2026-09-12 09:00:00 +0000
+description: "A post centered on one or more images."
+tags: [images]
+categories: [visual]
+thumbnail: assets/img/example.jpg
 
-  DISTILL-STYLE POST
-  Use `layout: distill` and copy the structure from _posts/2018-12-22-distill.md.
-  {% endcomment %}
+---
+
+{% include figure.liquid path="assets/img/example.jpg" title="Description" class="img-fluid rounded z-depth-1" %}
+
+VIDEO / EMBEDDED MEDIA
+
+---
+
+layout: post
+title: "Video post"
+date: 2026-09-12 09:00:00 +0000
+description: "A post with a video or recorded presentation."
+tags: [video, media]
+categories: [presentations]
+
+---
+
+{% include video.liquid path="https://www.youtube.com/watch?v=VIDEO_ID" class="img-fluid rounded z-depth-1" %}
+
+AUDIO / PODCAST
+
+---
+
+layout: post
+title: "Audio post"
+date: 2026-09-12 09:00:00 +0000
+description: "A post with an audio recording."
+tags: [audio, media]
+categories: [presentations]
+
+---
+
+{% include audio.liquid path="assets/audio/example.mp3" %}
+
+CODE / NOTEBOOK / DATA
+
+---
+
+layout: post
+title: "Code and data post"
+date: 2026-09-12 09:00:00 +0000
+description: "A technical post with code, charts, or a notebook."
+tags: [code, python, data]
+categories: [technical]
+
+---
+
+Use fenced code blocks with a language such as ```python, or add a notebook,
+chart, map, diagram, or table using the matching examples in \_posts/.
+
+FEATURED POST
+Add `featured: true` to a normal post to show it in the featured area.
+
+EXTERNAL / REDIRECTED POST
+
+---
+
+layout: post
+title: "External article"
+date: 2026-09-12 09:00:00 +0000
+description: "A short summary of the external article."
+redirect: https://example.com/article
+
+---
+
+DISTILL-STYLE POST
+Use `layout: distill` and copy the structure from \_posts/2018-12-22-distill.md.
+{% endcomment %}
 
 <div class="post">
 
