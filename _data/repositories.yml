@@ -4,8 +4,10 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  # Project examples: NotesApp and HDL Design
   - alvinsakib/notes-app
   - alvinsakib/HDL-Design
+  # Additional GitHub projects
   - alvinsakib/Recipe-management
   - alvinsakib/Quantum-Lab001
   - alvinsakib/backend-golang
