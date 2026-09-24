@@ -1,25 +1,15 @@
 cv:
   name: MD. Alvin Sarkar Sakib
-  label: Software Engineer Intern
+  headline: Software Engineer Intern
   email: alvinsakib56@gmail.com
   location: Dhaka, Bangladesh
-  image: ""
-  summary: Computer Science and Engineering graduate and Intern Engineer working on large language models, on-device AI, and agentic AI systems.
+  photo:
 
   social_networks:
-    - network: X
-      username: alvinsakib
     - network: GitHub
       username: alvinsakib
     - network: LinkedIn
       username: alvinsakib
-
-  address:
-    street: K Block, Road #15
-    city: Dhaka
-    region: Dhaka
-    postalCode: 1219
-    countryCode: Bangladesh
 
   sections:
     Education:
@@ -27,7 +17,7 @@ cv:
         location: Rajshahi, Bangladesh
         url: https://www.ruet.ac.bd/
         area: Computer Science & Engineering
-        studyType: BSc
+        degree: BSc
         start_date: 2019
         end_date: 2025
         score: ""
@@ -39,14 +29,14 @@ cv:
       - institution: Cumilla Victoria Govt. College
         location: Cumilla, Bangladesh
         area: Science
-        studyType: Higher Secondary School
+        degree: Higher Secondary School
         start_date: 2017
         end_date: 2019
 
       - institution: Cumilla Zilla School
         location: Cumilla, Bangladesh
         area: Science
-        studyType: Secondary School
+        degree: Secondary School
         start_date: 2012
         end_date: 2017
 
@@ -100,11 +90,11 @@ cv:
         summary: An undergraduate research study on fetal brain plane classification using attention-enhanced transfer learning for medical image analysis.
 
     Skills:
-      - name: Artificial Intelligence
-        keywords: "Large Language Models, Agentic AI, Multi-Agent Systems, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Medical Image Analysis, AI Evaluation"
+      - label: Artificial Intelligence
+        details: Large Language Models, Agentic AI, Multi-Agent Systems, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Medical Image Analysis, AI Evaluation
 
-      - name: Software Engineering
-        keywords: "Python, Linux, Bash, Git, Docker, Backend Development, REST APIs, React, Laravel, Golang, SQL"
+      - label: Software Engineering
+        details: Python, Linux, Bash, Git, Docker, Backend Development, REST APIs, React, Laravel, Golang, SQL
 
     Languages:
       - name: Bengali
@@ -113,14 +103,11 @@ cv:
         summary: "Fluent"
 
     Interests:
-      - name: Research Interests
-        keywords: "Large Language Models, Agentic AI, AI Evaluation, Natural Language Processing, Computer Vision, Medical Image Analysis, On-Device AI"
+      - label: Research Interests
+        details: Large Language Models, Agentic AI, AI Evaluation, Natural Language Processing, Computer Vision, Medical Image Analysis, On-Device AI
 
     Certificates:
-      - name: Python (Django)
-        date: 2025-08-12
-        issuer: Bangladesh Computer Council
-        icon: fa-solid fa-location-dot
+      - bullet: Python (Django), Bangladesh Computer Council (2025-08-12)
 
       # - name: Quantum Computing
       #   date: 2018-01-01
@@ -133,15 +120,11 @@ cv:
       #   icon: fa-solid fa-envelope
 
     Projects:
-      - name: "Notes App: Full-Stack AI Assisted Note Management System"
-        summary: A full-stack note management application with AI-assisted organization and intelligent note suggestions.
-        highlights:
-          - Developed full-stack notes management with React and Laravel
-          - Implemented JWT authentication and RESTful CRUD APIs
-          - Integrated Claude AI for intelligent note suggestions
-          - Built search, categorization, priority, and status management
-        start_date: 2026-02-01
-        end_date: 2026-03-20
+      - bullet: "Notes App: Full-Stack AI Assisted Note Management System"
+      - bullet: Developed full-stack notes management with React and Laravel
+      - bullet: Implemented JWT authentication and RESTful CRUD APIs
+      - bullet: Integrated Claude AI for intelligent note suggestions
+      - bullet: Built search, categorization, priority, and status management
 
     # References:
     #   - name: Professor Dr. Md. Ali Hossain
